@@ -6,7 +6,7 @@ body, html {
 }
 
 .footnotes {
-  font-size: 21px;
+  font-size: 1.0em;
   color: #476345;
   font-family: "Arial";
 }
@@ -35,11 +35,11 @@ header {
 }
 
 h1.header_main{
-  font-size: 60px;
+  font-size: 2.0em;
 }
 
 h2.header_main{
-  font-size: 36px;
+  font-size: 1.5em;
 }
 
 // Navigation
@@ -60,7 +60,7 @@ h2.header_main{
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1.50em;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -101,10 +101,10 @@ button{
   font-family: "Arial";
     cursor: pointer;
     background-color: transparent;
-    height: 75px;
+    height: 50px;
     width: 200px;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.25em;
     transition-duration: 0.4s;
     border:none;
 
@@ -152,11 +152,11 @@ button:hover {
 
 p {
   font-family: "Arial";
-  font-size: 21px;
+  font-size: 1.0em;
 }
 
 .search_result{
-  font-size: 24px;
+  font-size: 1.0em;
   font-style: italic;
 }
 
@@ -171,7 +171,7 @@ a {
 }
 
 .title{
-  font-size: 24px;
+  font-size: 2.0em;
   }
 
 .content {
@@ -282,7 +282,7 @@ img.page_image{
 
 .description_btn{
   font-family: "Arial";
-  font-size: 25px;
+  font-size: 1.0em;
   cursor: pointer;
   background-color: transparent;
   color:#476345;  
@@ -323,7 +323,7 @@ iframe {
   
 #footer {
     font-family: "Arial"; 
-    font-size: 12px; 
+    font-size: 1.0em; 
     color: #476345;
     padding: 10px;
     position: absolute;
@@ -337,6 +337,6 @@ iframe {
 
 a.info {
   font-family: "Arial";
-  font-size: 12px;
+  font-size: 1.0em;
   padding: 0px;
 }
