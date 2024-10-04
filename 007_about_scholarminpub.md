@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About ScholarMinPub
-number: 010
+number: 007
 ---
 
 # About ScholarMinPub
