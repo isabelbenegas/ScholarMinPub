@@ -5,3 +5,11 @@ number: 005
 ---
 
 # Bibliography
+
+## Primary Sources
+
+You should have at least two primary sources.
+
+## Secondary Sources
+
+You should have at least 5 secondary sources.
