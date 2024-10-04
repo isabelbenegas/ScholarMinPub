@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
-
 // Basic
 
 body, html {
@@ -8,6 +5,11 @@ body, html {
   margin: 0;
 }
 
+.footnotes {
+  font-size: 21px;
+  color: #476345;
+  font-family: "Arial";
+}
 
 // Header
 
@@ -99,7 +101,7 @@ button{
   font-family: "Arial";
     cursor: pointer;
     background-color: transparent;
-    height: 50px;
+    height: 75px;
     width: 200px;
     color: white;
     font-size: 1.5em;
