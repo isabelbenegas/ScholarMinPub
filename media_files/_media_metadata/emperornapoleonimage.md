@@ -9,5 +9,5 @@ _date: 1805
 source: Wikipedia
 
 _path: /media_files/images/emperornapoleon.jpg 
-layout: image_description
+layout: media_description
 ---

@@ -14,7 +14,7 @@ Now analyze your historical subject. (1000 words). You can include images, video
 {% include media.html pages=media %}
 
 # Embedding a Single Video
-{% assign media = site.media_metadata | where_exp: "item", "item.title == 'Kill_the_Sexist'" %}
+{% assign media = site.media_metadata | where_exp: "item", "item.name == 'RiseOfPrussia'" %}
 {% include media.html pages=media %}
 
 # Linking to a PDF File

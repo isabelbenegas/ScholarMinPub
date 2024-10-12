@@ -18,7 +18,7 @@ date_created_(IPTC):
 
 _path: /media_files/images/doggo.jpeg
 order: '02'
-layout: image_description
+layout: media_description
 ---
 
 _title: Dogs

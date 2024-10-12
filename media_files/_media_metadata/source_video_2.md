@@ -18,7 +18,7 @@ date_created_(IPTC):
 
 _path: /media_files/videos/KillTheSexist.mp4
 order: '02'
-layout: image_description
+layout: media_description
 ---
 
 _title: Kill the Sexist
