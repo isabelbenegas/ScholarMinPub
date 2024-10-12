@@ -23,14 +23,17 @@
 {% endfor %}
 
 <p style="text-align: center;">
-{% if current_page_number == 1 %}
-    Back to: <a href="{{ site.baseurl }}{% link index.markdown %}">Home</a> |
+{% if current_page_number == 0 | plus: 0 %}
 {% else %}
-  Back to: <a href="{{ site.baseurl }}{{ prev_page.url }}">{{ prev_page.title }}</a> |
-{% endif %}
+    {% if current_page_number == 1 %}
+        Back to: <a href="{{ site.baseurl }}{% link index.markdown %}">Home</a> |
+    {% else %}
+    Back to: <a href="{{ site.baseurl }}{{ prev_page.url }}">{{ prev_page.title }}</a> |
+    {% endif %}
 
-{% if next_page %}
-   | Continue to: <a href="{{ site.baseurl }}{{ next_page.url }}">{{ next_page.title }}</a>
+    {% if next_page %}
+        | Continue to: <a href="{{ site.baseurl }}{{ next_page.url }}">{{ next_page.title }}</a>
+    {% endif %}
 {% endif %}
 </p>
 </div>
