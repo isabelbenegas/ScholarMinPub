@@ -45,7 +45,11 @@ To add text content:
 
 Leave base titles alone that have the {% raw %} # Title {% endraw %} headings. To add second-level titles, use {% raw %} ## Second-Level Title {% endraw %}.
 
-Also, do not change any text at the top of each file, everything that is between the "---" symbols.
+Also, do not change any text at the top of each file, everything that is between the ``` --- ``` symbols.
+
+### Adding Links
+
+To add a link, use the following code: ``` [text to describe the link or the website's name](url to the site) ```
 
 ### Adding Images
 
@@ -67,8 +71,9 @@ To add an image you found on the internet, you first need to download the image 
 
 Copy and paste the following:
 
-{% raw %}
-``` --- ```
+
+```
+--- 
 
 name: EmperorNapoleon
 media_type: image
@@ -82,8 +87,9 @@ source: Wikipedia
 _path: /media_files/images/emperornapoleon.jpg 
 layout: media_description
 
-``` --- ```
-{% endraw %}
+--- 
+```
+
 
 Change the information above to match your new image. Remember the "name" you give it above.
 
@@ -113,7 +119,9 @@ Example:
 After following the steps above, YouTube gives you the following code:
 
 {% raw %}
+```
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PizUbOsjYm0?si=SukZvyQDpYvHldiR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
 {% endraw %}
 
 Copy only the following:
@@ -131,8 +139,8 @@ https://www.youtube.com/embed/PizUbOsjYm0?si=SukZvyQDpYvHldiR
 
 Copy and paste the following:
 
-{% raw %}
-``` --- ```
+```
+---
 
 name: RiseOfPrussia
 media_type: video
@@ -146,8 +154,9 @@ source: YouTube
 _path: https://www.youtube.com/embed/wzYfkezHp3k?si=qcH-0UDQp8mtTa8j
 layout: media_description
 
-``` --- ```
-{% endraw %}
+---
+```
+
 
 Change the information above to match your new video. Remember the "name" you give it above.
 
