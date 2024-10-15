@@ -28,6 +28,8 @@ So your new copy of MinPub already can be converted into a website, using GitHub
 - ***Set Your Site baseurl***
     - Set your Config.yml File - You can find the “config.yml” folder under the “Code” button at the top left hand of the screen. The “config.yml” folder is near the bottom of the page.
     - Replace the content of the line "baseurl" in the config.yml folder with the name of your repository, which is the name you selected when you initially created your own repository.  Be sure to copy the name exactly (e.g., 'baseurl: "/ScholarMinPub"' --> 'baseurl: "LASTNAME-FIRSTNAME-HIST-CLASSNUMBER"').
+    - Change the title of your project
+    - Add your group members' names
 - ***Click on the Link You Created in the Step Above*** - Your website should now load.
 
 > [!WARNING] 
