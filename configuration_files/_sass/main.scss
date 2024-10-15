@@ -319,8 +319,20 @@ iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 420px;
-  height: 315px;
+  width: 420px; //420px
+  height: 315px; //315px
+}
+
+.timeline-iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 80%;
+  border: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 //   Footer
   
