@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Conclusion
-number: 003
+number: 3
 ---
 
 # Conclusion

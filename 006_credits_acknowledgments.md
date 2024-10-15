@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Credits
-number: 006
+number: 6
 ---
 
 # Credits and Acknowledgments

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bibliography
-number: 005
+number: 5
 ---
 
 # Bibliography

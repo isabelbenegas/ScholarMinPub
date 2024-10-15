@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Analysis
-number: 002
+number: 2
 ---
 
 # Analysis
