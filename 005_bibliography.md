@@ -8,7 +8,7 @@ number: 5
 
 ## Primary Sources
 
-You should have at least two primary sources.
+You should have at least one primary source.
 
 ## Secondary Sources
 
